@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-a, input, form, select, option {
+a, input, form, select, option, button {
     border: none;
     outline: none;
 }
@@ -15,6 +15,7 @@ label {
 body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    font-size: 16px;
 }
 
 
@@ -41,6 +42,7 @@ body {
 
 .header__subtitle {
     margin-bottom: 35px;
+    font-style: italic;
 }
 
 .container {
@@ -66,6 +68,11 @@ body {
     margin-bottom: 20px;
 }
 
+
+.title {
+    margin-bottom: 10px;
+}
+
 .input {
     font-size: 17px;
     margin-bottom: 5px;
@@ -76,4 +83,14 @@ body {
 
 .textarea {
     padding: 10px;
+    resize: vertical;
+    min-height: 100px;
+    font-family: inherit;
+}
+
+.btn {
+    padding: 15px 0;
+    background-color: #37af65;
+    color: #fff;
+    font-family: inherit;
 }
