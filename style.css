@@ -38,6 +38,7 @@ body {
 
 .header__title {
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .header__subtitle {
@@ -68,6 +69,11 @@ body {
     margin-bottom: 20px;
 }
 
+.form-select {
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .title {
     margin-bottom: 10px;
