@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-a, input, form {
+a, input, form, select, option {
     border: none;
     outline: none;
 }
@@ -26,6 +26,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
+    overflow-y: scroll;
     
 }
 
@@ -70,5 +71,6 @@ body {
     margin-bottom: 5px;
     padding: 10px 15px;
     border-radius: 5px;
+
 }
 
